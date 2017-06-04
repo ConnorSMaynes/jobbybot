@@ -1,1 +1,1 @@
-start pythonw jobbybot/jobbybot.py
+start pythonw slices/jobbybot.py
