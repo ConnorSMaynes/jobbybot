@@ -1,0 +1,1 @@
+start pythonw jobbybot/jobbybot.py
