@@ -249,7 +249,7 @@ class BotThread(QThread):
                     else:
                         CommonFuncs.log('applier taking a timeout as it waits for more job links')
                         Jobbybot.run_bot_job_link_webcrawler( spider_name=spider_name ) # start the webcrawler for this bot
-                        sleep_count = 100
+                        sleep_count = 5
                         for i in range(sleep_count):    # wait for more results, check to make sure the bot is still running
                             if CommonFuncs.is_bot_running(self.site_bot_name):
                                 sleep(1)
